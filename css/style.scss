@@ -1,0 +1,133 @@
+$main-color : #273b91;
+$shadow-color:#8992d0;
+$para-color:#FFF;
+$dark:#30322f;
+$grey-color:rgba(233,234,237,255);
+body{
+    background-color:$main-color;
+    color:$para-color;
+    font-family: 'Patrick Hand', cursive;
+   
+}
+html, body{
+    overflow-x: hidden;
+}
+a{
+    color:$para-color;
+    &:hover{
+       color:$para-color;
+       text-decoration: none;
+    }
+}
+
+
+
+#para-slider{
+    font-size:20px !important;
+}
+@mixin background($image,$repeat , $size) {
+    background-image: $image;
+    background-repeat: $repeat;
+    background-size: $size;
+}
+.nodecoration{
+    list-style-type: none;
+}
+.cardd{
+    background-color: $para-color;
+    -moz-box-shadow: inset 0 0 5px black;
+    -webkit-box-shadow: inset 0 0 5px black;
+    box-shadow: inset 0 0 5px black;
+    border-radius: 25px;
+    color:black;
+    width:100%;
+   
+}
+.cardrow{
+    display: block;
+margin-left: auto;
+margin-right: auto;
+}
+/*****************************Mobil Version*********************************/
+@media only screen and (max-width: 680px) {
+    .cardd{
+        width:80%;
+    }
+    #image-slider{
+        width:90%;
+    }
+    .slider-buttons{
+        position: relative;
+        bottom:2vh;
+    }
+    .logo-photo{
+        width:37%;
+    }
+}
+@media only screen and (min-width:768px){
+.vision , .mission{
+    border-right: 2px solid $para-color;
+    
+}
+.logo-photo{
+    width:20%;
+}
+.cardd{
+
+color:$dark;
+}
+}
+
+.register-btn{
+    border-radius:100px;
+    border : 2px $main-color solid ;
+    -moz-box-shadow: inset 0 0 5px $shadow-color;
+    -webkit-box-shadow: inset 0 0 5px $shadow-color;
+    box-shadow: inset 0 0 5px $shadow-color;
+    background-color: #FFF !important;
+    color:$main-color;
+}
+.arrow-icon{
+    color:$main-color;
+}
+.slider-button{
+   
+    background-color: #FFF !important;
+}
+.lang-btn{
+    border-radius:100px;
+    border : 2px $para-color solid ;
+    color:$para-color;
+    -moz-box-shadow: inset 0 0 5px $para-color;
+    -webkit-box-shadow: inset 0 0 5px $para-color;
+    box-shadow: inset 0 0 5px $para-color;
+    background-color:$main-color;
+}
+.register-btn:hover{
+      color:$shadow-color;
+}
+.greyrow{
+    background-color: $grey-color;
+}
+.rtl{
+    direction:rtl
+}
+.footer{
+    background-color:$dark !important;
+}
+.audiance-icon{
+    color:$shadow-color;
+}
+.creditcard{
+    // background: rgb(164,158,158);
+    // background: linear-gradient(90deg, rgba(164,158,158,1) 0%, rgba(131,117,108,1) 59%, rgba(80,75,72,1) 100%);
+background-color:gray;
+border-radius: 25px;
+}
+#paymentForm,.payheader{
+    color:$dark;
+}
+.pay-btn{
+    background-color:$main-color;
+    color:$para-color;
+}
