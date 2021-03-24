@@ -82,7 +82,7 @@ function left(){
         counter=3;
         source='../img/Register.jpg';
     }
-    alert(source);
+//     alert(source);
 //    document.getElementById("head").innerText=newHead;
    document.getElementById("para-slider").innerText=newPara;
 //    document.getElementById("image-slider").src=source;
