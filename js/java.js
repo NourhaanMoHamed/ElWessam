@@ -28,7 +28,7 @@ function right(){
     }
     else if(counter ==3){
         // 5 
-        newPara="Therefore, it was very important to have schools specialized in providing information remotely through the use of professional platforms, advanced technology and qualified teachers. Therefore, Al-Wessam Online School offers its students:";
+        newPara="Therefore, it was very important to have schools specialized in providing information remotely through the use of professional platforms, advanced technology and qualified teachers. Therefore, Al-Wessam Online School offers its students";
         counter=4;
         source='../img/Register.jpg';
     }
@@ -51,7 +51,7 @@ function left(){
     if (counter==0)
     {
         // 5
-        newPara="Therefore, it was very important to have schools specialized in providing information remotely through the use of professional platforms, advanced technology and qualified teachers. Therefore, Al-Wessam Online School offers its students:";
+        newPara="Therefore, it was very important to have schools specialized in providing information remotely through the use of professional platforms, advanced technology and qualified teachers. Therefore, Al-Wessam Online School offers its students";
         counter =4;
         source='../img/2.jpg';
         
