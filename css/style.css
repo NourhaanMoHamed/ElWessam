@@ -1,0 +1,133 @@
+body {
+  background-color: #273b91;
+  color: #FFF;
+  font-family: 'Patrick Hand', cursive;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+a {
+  color: #FFF;
+}
+
+a:hover {
+  color: #FFF;
+  text-decoration: none;
+}
+
+#para-slider {
+  font-size: 20px !important;
+}
+
+.nodecoration {
+  list-style-type: none;
+}
+
+.cardd {
+  background-color: #FFF;
+  -moz-box-shadow: inset 0 0 5px black;
+  -webkit-box-shadow: inset 0 0 5px black;
+  box-shadow: inset 0 0 5px black;
+  border-radius: 25px;
+  color: black;
+  width: 100%;
+}
+
+.cardrow {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*****************************Mobil Version*********************************/
+@media only screen and (max-width: 680px) {
+  .cardd {
+    width: 80%;
+  }
+  #image-slider {
+    width: 90%;
+  }
+  .slider-buttons {
+    position: relative;
+    bottom: 2vh;
+  }
+  .logo-photo {
+    width: 37%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .vision, .mission {
+    border-right: 2px solid #FFF;
+  }
+  .logo-photo {
+    width: 20%;
+  }
+  .cardd {
+    color: #30322f;
+  }
+}
+
+.register-btn {
+  border-radius: 100px;
+  border: 2px #273b91 solid;
+  -moz-box-shadow: inset 0 0 5px #8992d0;
+  -webkit-box-shadow: inset 0 0 5px #8992d0;
+  box-shadow: inset 0 0 5px #8992d0;
+  background-color: #FFF !important;
+  color: #273b91;
+}
+
+.arrow-icon {
+  color: #273b91;
+}
+
+.slider-button {
+  background-color: #FFF !important;
+}
+
+.lang-btn {
+  border-radius: 100px;
+  border: 2px #FFF solid;
+  color: #FFF;
+  -moz-box-shadow: inset 0 0 5px #FFF;
+  -webkit-box-shadow: inset 0 0 5px #FFF;
+  box-shadow: inset 0 0 5px #FFF;
+  background-color: #273b91;
+}
+
+.register-btn:hover {
+  color: #8992d0;
+}
+
+.greyrow {
+  background-color: #e9eaed;
+}
+
+.rtl {
+  direction: rtl;
+}
+
+.footer {
+  background-color: #30322f !important;
+}
+
+.audiance-icon {
+  color: #8992d0;
+}
+
+.creditcard {
+  background-color: gray;
+  border-radius: 25px;
+}
+
+#paymentForm, .payheader {
+  color: #30322f;
+}
+
+.pay-btn {
+  background-color: #273b91;
+  color: #FFF;
+}
